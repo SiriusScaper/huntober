@@ -10,3 +10,11 @@ For example:
 // never empty, at least one num in the array
 // [2,4], 2
 // [] -> last even nums
+
+
+function nEvenNums (arr) {
+  // filter out odd nums
+  // n last nums from the filtered array- slice (-n)
+  // for - grabbing even nums O(n)
+  // for - grabbing total from right O(n)
+}
