@@ -1,20 +1,7 @@
-Given an array of digital numbers, return a new array of length number containing the last even numbers from the original array (in the same order). The original array will be not empty and will contain at least "number" even numbers.
+// Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
 
-For example:
+// Return your answer as a number.
 
-([1, 2, 3, 4, 5, 6, 7, 8, 9], 3) => [4, 6, 8]
-([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2) => [-8, 26]
-([6, -25, 3, 7, 5, 5, 7, -3, 23], 1) => [6]
-
-// [arr], num
-// never empty, at least one num in the array
-// [2,4], 2
-// [] -> last even nums
-
-
-function nEvenNums (arr) {
-  // filter out odd nums
-  // n last nums from the filtered array- slice (-n)
-  // for - grabbing even nums O(n)
-  // for - grabbing total from right O(n)
-}
+// assert.strictEqual(sumMix([9, 3, '7', '3']), 22);
+// assert.strictEqual(sumMix(['5', '0', 9, 3, 2, 1, '9', 6, 7]), 42); 
+// assert.strictEqual(sumMix(['3', 6, 6, 0, '5', 8, 5, '6', 2,'0']), 41); 
