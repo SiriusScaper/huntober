@@ -1,13 +1,16 @@
-// Return the number of unique arrays that can be formed by picking exactly one element from each subarray.
+// Given an array of integers , Find the Nth smallest element in this array of integers.
 
-// For example: solve([[1,2],[4],[5,6]]) = 4, because it results in only 4 possibilites. They are [1,4,5],[1,4,6],[2,4,5],[2,4,6].
+// Notes
+// Array/list size is at least 3 .
 
-// Make sure that you don't count duplicates; for example solve([[1,2],[4,4],[5,6,6]]) = 4, since the extra outcomes are just duplicates.
+// Array/list's numbers could be a mixture of positives , negatives and zeros .
 
-// solve([[1,2],[4],[5,6]]),4)
-// solve([[1,2],[4,4],[5,6,6]]),4)
-// solve([[1,2],[3,4],[5,6]]),8)
-// solve([[1,2,3],[3,4,6,6,7],[8,9,10,12,5,6]]),72)
+// Repetition in array/list's numbers could occur , so don't Remove Duplications .
+
+// nthSmallest({3,1,2} ,2) ==> return (2) 
+// nthSmallest({15,20,7,10,4,3} ,3) ==> return (7) 
+// nthSmallest({15,20,7,10,4,3} ,3) ==> return (7) 
+// nthSmallest({177,225,243,-169,-12,-5,2,92} ,5) ==> return (92) 
 
 //+ Parameters
 

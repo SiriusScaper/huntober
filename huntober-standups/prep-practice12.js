@@ -1,13 +1,12 @@
-// Given a string, return a new string that has transformed based on the input:
+// Given a string of words (x), you need to return an array of the words, sorted alphabetically by the final character in each.
 
-// Change case of every character, ie. lower case to upper case, upper case to lower case.
-// Reverse the order of words from the input.
-// Note: You will have to handle multiple spaces, and leading/trailing spaces.
+// If two words have the same last letter, they returned array should show them in the order they appeared in the given string.
 
-// For example:
+// All inputs will be valid.
 
-// "Example Input" ==> "iNPUT eXAMPLE"
-// You may assume the input only contain English alphabet and spaces.
+// last('man i need a taxi up to ubud'), ['a', 'need', 'ubud', 'i', 'taxi', 'man', 'to', 'up']
+// last('what time are we climbing up the volcano'), ['time', 'are', 'we', 'the', 'climbing', 'volcano', 'up', 'what']
+// last('take me to semynak'), ['take', 'me', 'semynak', 'to'] 
 
 //+ Parameters
 
