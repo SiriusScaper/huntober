@@ -7,3 +7,14 @@
 // ['aa', 'bb', 'ddd', 'eee'] => ['aaa', 'bbb', 'ddd', 'eee'] // average length is 2.5 round up to 3
 // If the average length is not an integer, use Math.round().
 // The input array's length > 1
+
+//+ Parameters
+
+
+//+ Returns
+
+
+//+ Examples
+
+
+//+ Pseudo Code
