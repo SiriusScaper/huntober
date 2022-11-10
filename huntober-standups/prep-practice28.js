@@ -20,3 +20,14 @@
 //   assert.equal(ransomNote("sit ad est sint in in in in", magazine), false);
 //  });
 // });
+
+//+ Parameters
+
+
+//+ Returns
+
+
+//+ Examples
+
+
+//+ Pseudo Code
